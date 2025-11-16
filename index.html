@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkillShare Edu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="header">
+  <div class="container nav-flex">
+    <h1 class="logo">SkillShare <span>Edu</span></h1>
+
+    <nav class="main-nav">
+      <a class="active" href="index.html">Home</a>
+      <a href="tutors.html">Tutors</a>
+      <a href="courses.html">Courses</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="faq.html">FAQ</a>
+      <a href="about.html">About</a>
+      <a href="login.html" class="outline">Login</a>
+    </nav>
+
+    <button id="themeToggle" class="icon-btn">🌓</button>
+  </div>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero">
+  <div class="hero-content container">
+    <h2>Learn from the Best Tutors in India</h2>
+    <p>Your journey to success starts here. Join thousands of students today.</p>
+    <a class="btn" href="signup.html">Get Started</a>
+  </div>
+</section>
+
+<!-- COUNTERS -->
+<section class="counters container">
+  <div class="counter">
+    <div class="num" data-target="1500">0</div>
+    <p class="label">Students</p>
+  </div>
+  <div class="counter">
+    <div class="num" data-target="120">0</div>
+    <p class="label">Tutors</p>
+  </div>
+  <div class="counter">
+    <div class="num" data-target="350">0</div>
+    <p class="label">Live Sessions</p>
+  </div>
+</section>
+
+<!-- TUTOR SLIDER (FIXED) -->
+<section id="tutors" class="tutor-section container">
+  <h2 class="section-title">Top Tutors</h2>
+
+  <div class="slider-wrapper">
+    <div class="track">
+
+      <!-- 8 tutor cards (looping) -->
+      <div class="card">
+        <img src="https://i.pravatar.cc/150?img=5">
+        <h3>Riya Sharma</h3>
+        <p class="meta">Python • ML</p>
+        <div class="stars">★★★★★</div>
+      </div>
+
+      <div class="card">
+        <img src="https://i.pravatar.cc/150?img=12">
+        <h3>Amit Verma</h3>
+        <p class="meta">C++ • DSA</p>
+        <div class="stars">★★★★★</div>
+      </div>
+
+      <div class="card">
+        <img src="https://i.pravatar.cc/150?img=20">
+        <h3>Neha Gupta</h3>
+        <p class="meta">Frontend Engineer</p>
+        <div class="stars">★★★★★</div>
+      </div>
+
+      <div class="card">
+        <img src="https://i.pravatar.cc/150?img=30">
+        <h3>Aditya Singh</h3>
+        <p class="meta">Cybersecurity</p>
+        <div class="stars">★★★★★</div>
+      </div>
+
+      <div class="card">
+        <img src="https://i.pravatar.cc/150?img=32">
+        <h3>Sneha Patil</h3>
+        <p class="meta">UI/UX Designer</p>
+        <div class="stars">★★★★★</div>
+      </div>
+
+      <div class="card">
+        <img src="https://i.pravatar.cc/150?img=45">
+        <h3>Rahul Mehta</h3>
+        <p class="meta">Java Developer</p>
+        <div class="stars">★★★★★</div>
+      </div>
+
+      <div class="card">
+        <img src="https://i.pravatar.cc/150?img=50">
+        <h3>Harshita Yadav</h3>
+        <p class="meta">Data Analyst</p>
+        <div class="stars">★★★★★</div>
+      </div>
+
+      <div class="card">
+        <img src="https://i.pravatar.cc/150?img=55">
+        <h3>Manish Kumar</h3>
+        <p class="meta">Flutter Developer</p>
+        <div class="stars">★★★★★</div>
+      </div>
+
+      <!-- duplicate loop for infinite scroll -->
+      <!-- repeat same cards -->
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS AUTO-SLIDER (FIXED) -->
+<section class="reviews-section">
+  <div class="container">
+    <h2 class="section-title">Student Reviews</h2>
+
+    <div class="reviews-track">
+      <div class="review-card">
+        <img src="https://i.pravatar.cc/100?img=49">
+        <h3>Aarav Mehta</h3>
+        <div class="stars">★★★★★</div>
+        <p>Best learning platform. I improved my DSA a lot!</p>
+      </div>
+
+      <div class="review-card">
+        <img src="https://i.pravatar.cc/100?img=8">
+        <h3>Sanya Kapoor</h3>
+        <div class="stars">★★★★★</div>
+        <p>Great tutors, clean UI and very friendly staff.</p>
+      </div>
+
+      <div class="review-card">
+        <img src="https://i.pravatar.cc/100?img=15">
+        <h3>Vihaan Singh</h3>
+        <div class="stars">★★★★★</div>
+        <p>Cleared my interview thanks to great guidance!</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container footer-grid">
+    <div>
+      <h3>SkillShare Edu</h3>
+      <p>Learn from the best tutors anytime.</p>
+    </div>
+
+    <div>
+      <h4>Quick Links</h4>
+      <a href="about.html">About</a><br>
+      <a href="faq.html">FAQ</a><br>
+      <a href="pricing.html">Pricing</a>
+    </div>
+
+    <div>
+      <h4>Pages</h4>
+      <a href="tutors.html">Tutors</a><br>
+      <a href="courses.html">Courses</a>
+    </div>
+
+    <div>
+      <h4>Contact</h4>
+      <p>Email: support@skillshare.com</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+const toggle = document.getElementById('themeToggle');
+toggle.addEventListener('click', () => {
+  document.documentElement.classList.toggle('dark')
+});
+</script>
+
+</body>
+</html>
